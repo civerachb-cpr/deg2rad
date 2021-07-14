@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+
+import sys
+from math import pi
+
+for arg in sys.argv:
+    try:
+        x = float(arg)
+        print(x * 180.0 / pi)
+    except:
+        pass
+
